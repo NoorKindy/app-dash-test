@@ -13,7 +13,7 @@ dash.register_page(__name__, path='/emotion')
 
 
 date = "20240317"
-csv_file_path = f"csv_input\Emotional_Analysis_{date}.csv"
+csv_file_path = "csv_input\Emotional_Analysis_20240317.csv"
 data = pd.read_csv(csv_file_path)
 
 data['Hour'] = pd.to_datetime(data['Hour'])
