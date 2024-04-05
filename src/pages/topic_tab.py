@@ -119,7 +119,7 @@ date = "20240317"
 #csv_file_path = f"csv_input\\Topic_Modeling_Analysis_{date}.csv"
 
 
-csv_path = os.getenv('CSV_PATH', 'default_csv_path/')  # Provide a default in case the environment variable isn't set
+csv_path = os.getenv('CSV_PATH', 'default_csv_path')  # Provide a default in case the environment variable isn't set
 csv_file_name = 'Topic_Modeling_Analysis_20240317.csv'
 data = pd.read_csv(csv_file_name)
 #df_topic_data = load_and_structure_data(f"csv_input\\Topic_Modeling_Analysis_{date}.csv")
