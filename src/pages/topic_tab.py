@@ -115,7 +115,9 @@ def generate_color():
 # print(flag)
 date = "20240317"
 #csv_file_path = f"csv_input\\Topic_Modeling_Analysis_{date}.csv"
-csv_file_path = 'csv_input/Topic_Modeling_Analysis_20240317.csv'
+#csv_file_path = 'csv_input/Topic_Modeling_Analysis_20240317.csv'
+csv_file_path = f"csv_input\\Topic_Modeling_Analysis_{date}.csv"
+data = pd.read_csv(csv_file_path)
 
 #df_topic_data = load_and_structure_data(f"csv_input\\Topic_Modeling_Analysis_{date}.csv")
 #df_topic_data = pd.read_csv(csv_file_path)
