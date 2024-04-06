@@ -117,7 +117,8 @@ date = "20240317"
 
 #csv_file_path = f"csv_input\\topic_modeling_{date}.csv"
 csv_file_path = 'topic.csv'
-data = pd.read_csv(csv_file_path)
+
+data = pd.read_csv('topic.csv')
 #df_topic_data = load_and_structure_data(f"csv_input\\Topic_Modeling_Analysis_{date}.csv")
 #df_topic_data = pd.read_csv(csv_file_path)
 load_and_structure_data
